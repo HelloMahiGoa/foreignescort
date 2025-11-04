@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,6 +8,94 @@ import Gallery from "@/components/Gallery";
 import VideoGallery from "@/components/VideoGallery";
 import Testimonials from "@/components/Testimonials";
 import Hotels from "@/components/Hotels";
+
+export const metadata: Metadata = {
+  title: "Chennai Russian Escorts | Book Russian's With 10% Discount",
+  description:
+    "Book verified Russian escorts in Chennai with 10% discount. Real Russian call girls available 24/7 for in-call and out-call services. Professional, verified profiles with no advance payment required.",
+  keywords: [
+    "Chennai Russian escorts",
+    "Russian escorts Chennai",
+    "Russian call girls Chennai",
+    "Russian escorts in Chennai",
+    "Chennai Russian escort service",
+    "book Russian escorts Chennai",
+    "Russian girls Chennai",
+    "Chennai escort service",
+    "Russian escorts discount",
+    "verified Russian escorts Chennai",
+    "Russian escorts near me",
+    "Chennai Russian call girls",
+    "Russian escorts 24/7 Chennai",
+    "affordable Russian escorts Chennai",
+    "high profile Russian escorts Chennai",
+  ],
+  authors: [{ name: "Hello Mahi" }],
+  creator: "Hello Mahi",
+  publisher: "Hello Mahi",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: true,
+  },
+  metadataBase: new URL("https://hellomahi.in"),
+  openGraph: {
+    title: "Chennai Russian Escorts | Book Russian's With 10% Discount",
+    description:
+      "Book verified Russian escorts in Chennai with 10% discount. Real Russian call girls available 24/7 for in-call and out-call services.",
+    url: "https://hellomahi.in",
+    siteName: "Hello Mahi",
+    images: [
+      {
+        url: "/images/desktop-hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Chennai Russian Escorts - Book Russian Girls with 10% Discount",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Chennai Russian Escorts | Book Russian's With 10% Discount",
+    description:
+      "Book verified Russian escorts in Chennai with 10% discount. Real Russian call girls available 24/7.",
+    images: ["/images/desktop-hero.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://hellomahi.in",
+    languages: {
+      "en-IN": "https://hellomahi.in",
+      "en": "https://hellomahi.in",
+    },
+  },
+  other: {
+    "geo.region": "IN-TN",
+    "geo.placename": "Chennai",
+    "geo.position": "13.0827;80.2707",
+    "ICBM": "13.0827, 80.2707",
+    "theme-color": "#000000",
+    "apple-mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-status-bar-style": "black-translucent",
+    "format-detection": "telephone=no",
+    "mobile-web-app-capable": "yes",
+    "msapplication-TileColor": "#000000",
+    "msapplication-config": "/browserconfig.xml",
+  },
+  category: "Services",
+};
 
 export default function Home() {
   const chennaiCity = getCityBySlug("chennai-russian-escorts");
@@ -31,15 +120,209 @@ export default function Home() {
     throw new Error("Chennai city definition missing");
   }
 
+  // Structured Data (JSON-LD) for SEO
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Hello Mahi",
+    url: "https://hellomahi.in",
+    description: "Professional Russian escort services in Chennai and major Indian cities",
+    inLanguage: "en-IN",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: "https://hellomahi.in/?s={search_term_string}",
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Hello Mahi",
+    url: "https://hellomahi.in",
+    logo: "https://hellomahi.in/logo.png",
+    description: "Professional Russian escort services in Chennai and major Indian cities",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Chennai",
+      addressRegion: "Tamil Nadu",
+      addressCountry: "IN",
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "Customer Service",
+      telephone: "+91-8121426651",
+      availableLanguage: ["English", "Hindi", "Tamil"],
+    },
+    sameAs: [],
+  };
+
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: "Hello Mahi - Chennai Russian Escorts",
+    description: "Book verified Russian escorts in Chennai with 10% discount. Available 24/7 for in-call and out-call services.",
+    url: "https://hellomahi.in",
+    telephone: "+91-8121426651",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Chennai",
+      addressRegion: "Tamil Nadu",
+      postalCode: "600001",
+      addressCountry: "IN",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: "13.0827",
+      longitude: "80.2707",
+    },
+    priceRange: "$$",
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+      ],
+      opens: "00:00",
+      closes: "23:59",
+    },
+    areaServed: {
+      "@type": "City",
+      name: "Chennai",
+    },
+  };
+
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    serviceType: "Escort Service",
+    provider: {
+      "@type": "LocalBusiness",
+      name: "Hello Mahi",
+    },
+    areaServed: {
+      "@type": "City",
+      name: "Chennai",
+    },
+    description: "Professional Russian escort services in Chennai with verified profiles, 24/7 availability, and 10% discount on bookings.",
+    offers: {
+      "@type": "Offer",
+      priceCurrency: "INR",
+      availability: "https://schema.org/InStock",
+      description: "10% discount on all bookings",
+    },
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "How to book Russian escorts in Chennai?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Booking Russian escorts in Chennai is simple. Call us, tell us what you're looking for, and we'll match you with someone who fits. Our Russian girls in Chennai know how to connect and are available 24/7.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Do you offer Russian escorts with discount in Chennai?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes, we offer a 10% discount on booking Russian escorts in Chennai. Contact us to avail the discount on verified Russian call girls.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Are Russian escorts in Chennai verified?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes, every Russian call girl in Chennai we work with is real and verified. We check IDs, verify who they are, and confirm they're actually Russian. Every girl goes through our verification process before they're on our list.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Do you require advance payment for Russian escorts?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "No, we don't ask for money upfront. You can book our Russian escorts in Chennai, confirm everything, and only pay after it's done. No deposits, no bank transfers before you meet - just book, meet, and pay if you're satisfied.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Are Russian escorts available 24/7 in Chennai?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes, our Russian escorts in Chennai are available around the clock, every day. Whether it's late night, early morning, or any time, someone's always ready to come to you. Just call, tell us where you are in Chennai, and we'll send someone.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Do Russian escorts provide in-call and out-call services?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes, our Russian escorts in Chennai do both in-call and out-call. In-call means you go to her place - good for quick meetings. Out-call means she comes to you - works for hotels, your home, or wherever you want in Chennai.",
+        },
+      },
+    ],
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://hellomahi.in",
+      },
+    ],
+  };
+
   return (
     <main className="text-white font-sans">
+      {/* Structured Data (JSON-LD) */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       {/* Hero Section */}
       <section className="relative isolate min-h-screen overflow-hidden bg-zinc-950 z-0">
         <div className="absolute inset-0 -z-20 md:hidden">
           <div className="relative h-screen w-full">
             <Image
               src="/images/mobile-hero.jpg"
-              alt="Nightlife skyline in India"
+              alt="Chennai Russian Escorts - Book Russian Girls with 10% Discount"
               fill
               priority
               sizes="100vw"
@@ -51,7 +334,7 @@ export default function Home() {
           <div className="relative h-full w-full">
             <Image
               src="/images/desktop-hero.jpg"
-              alt="Nightlife skyline in India"
+              alt="Chennai Russian Escorts - Book Russian Girls with 10% Discount"
               fill
               priority
               sizes="100vw"
@@ -67,7 +350,7 @@ export default function Home() {
         <div className="max-w-2xl space-y-8 text-white lg:pt-8">
           <div className="space-y-6">
             <h1 className="text-2xl font-semibold leading-tight tracking-tight sm:text-3xl lg:text-4xl">
-              RUSSIAN ESCORTS IN CHENNAI
+              Chennai Russian Escorts | Book Russian Girls With 10% Discount
             </h1>
             <h2 className="text-xl font-semibold leading-tight tracking-tight sm:text-2xl lg:text-3xl text-white/90">
               REAL RUSSIAN GIRLS AVAILABLE NOW AT AFFORDABLE RATES
@@ -236,7 +519,7 @@ export default function Home() {
               <div className="relative w-full h-full min-h-[400px] overflow-hidden rounded-3xl">
                 <Image
                   src="/images/erotic-russian-kiss.jpg"
-                  alt="Russian escorts in Chennai"
+                  alt="How to Book Russian Escorts in Chennai - Professional Service"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
@@ -286,7 +569,7 @@ export default function Home() {
               <div className="relative w-full h-full min-h-[400px] overflow-hidden rounded-3xl">
                 <Image
                   src="/images/high-profile-russian-escorts-in-chennai.avif"
-                  alt="High profile Russian escorts in Chennai"
+                  alt="Experienced Russian Escorts in Chennai - Verified and Trusted"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
@@ -764,7 +1047,7 @@ export default function Home() {
               <div className="relative w-full h-full min-h-[400px] overflow-hidden rounded-3xl">
                 <Image
                   src="/images/russian-call-girl.jpg"
-                  alt="Curvaceous Russian Call Girls"
+                  alt="Curvaceous and Slim Russian Call Girls in Chennai - All Types Available"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
@@ -814,7 +1097,7 @@ export default function Home() {
               <div className="relative w-full h-full min-h-[400px] overflow-hidden rounded-3xl">
                 <Image
                   src="/images/russian-escort-in-chennai.jpg"
-                  alt="Russian Escort in Chennai"
+                  alt="Russian Escorts in Chennai - Professional Service That Delivers"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
@@ -833,6 +1116,82 @@ export default function Home() {
 
       {/* Hotels Section */}
       <Hotels />
+
+      {/* FAQ Section */}
+      <section className="relative bg-zinc-950 py-8 lg:py-12" itemScope itemType="https://schema.org/FAQPage">
+        <div className="mx-auto w-full max-w-6xl px-6">
+          <h2 className="font-display text-3xl font-semibold leading-tight tracking-tight sm:text-4xl lg:text-5xl text-[#B8860B] mb-8 text-center">
+            Frequently Asked Questions
+          </h2>
+          <div className="grid gap-6 md:grid-cols-2">
+            <article className="rounded-2xl border border-white/15 bg-black/50 p-6 backdrop-blur-lg" itemScope itemType="https://schema.org/Question">
+              <h3 className="text-xl font-semibold text-white mb-3" itemProp="name">
+                How to book Russian escorts in Chennai?
+              </h3>
+              <div itemScope itemType="https://schema.org/Answer" itemProp="acceptedAnswer">
+                <p className="text-white/80 leading-relaxed" itemProp="text">
+                  Booking Russian escorts in Chennai is simple. Call us, tell us what you&apos;re looking for, and we&apos;ll match you with someone who fits. Our Russian girls in Chennai know how to connect and are available 24/7.
+                </p>
+              </div>
+            </article>
+
+            <article className="rounded-2xl border border-white/15 bg-black/50 p-6 backdrop-blur-lg" itemScope itemType="https://schema.org/Question">
+              <h3 className="text-xl font-semibold text-white mb-3" itemProp="name">
+                Do you offer Russian escorts with discount in Chennai?
+              </h3>
+              <div itemScope itemType="https://schema.org/Answer" itemProp="acceptedAnswer">
+                <p className="text-white/80 leading-relaxed" itemProp="text">
+                  Yes, we offer a 10% discount on booking Russian escorts in Chennai. Contact us to avail the discount on verified Russian call girls.
+                </p>
+              </div>
+            </article>
+
+            <article className="rounded-2xl border border-white/15 bg-black/50 p-6 backdrop-blur-lg" itemScope itemType="https://schema.org/Question">
+              <h3 className="text-xl font-semibold text-white mb-3" itemProp="name">
+                Are Russian escorts in Chennai verified?
+              </h3>
+              <div itemScope itemType="https://schema.org/Answer" itemProp="acceptedAnswer">
+                <p className="text-white/80 leading-relaxed" itemProp="text">
+                  Yes, every Russian call girl in Chennai we work with is real and verified. We check IDs, verify who they are, and confirm they&apos;re actually Russian. Every girl goes through our verification process before they&apos;re on our list.
+                </p>
+              </div>
+            </article>
+
+            <article className="rounded-2xl border border-white/15 bg-black/50 p-6 backdrop-blur-lg" itemScope itemType="https://schema.org/Question">
+              <h3 className="text-xl font-semibold text-white mb-3" itemProp="name">
+                Do you require advance payment for Russian escorts?
+              </h3>
+              <div itemScope itemType="https://schema.org/Answer" itemProp="acceptedAnswer">
+                <p className="text-white/80 leading-relaxed" itemProp="text">
+                  No, we don&apos;t ask for money upfront. You can book our Russian escorts in Chennai, confirm everything, and only pay after it&apos;s done. No deposits, no bank transfers before you meet - just book, meet, and pay if you&apos;re satisfied.
+                </p>
+              </div>
+            </article>
+
+            <article className="rounded-2xl border border-white/15 bg-black/50 p-6 backdrop-blur-lg" itemScope itemType="https://schema.org/Question">
+              <h3 className="text-xl font-semibold text-white mb-3" itemProp="name">
+                Are Russian escorts available 24/7 in Chennai?
+              </h3>
+              <div itemScope itemType="https://schema.org/Answer" itemProp="acceptedAnswer">
+                <p className="text-white/80 leading-relaxed" itemProp="text">
+                  Yes, our Russian escorts in Chennai are available around the clock, every day. Whether it&apos;s late night, early morning, or any time, someone&apos;s always ready to come to you. Just call, tell us where you are in Chennai, and we&apos;ll send someone.
+                </p>
+              </div>
+            </article>
+
+            <article className="rounded-2xl border border-white/15 bg-black/50 p-6 backdrop-blur-lg" itemScope itemType="https://schema.org/Question">
+              <h3 className="text-xl font-semibold text-white mb-3" itemProp="name">
+                Do Russian escorts provide in-call and out-call services?
+              </h3>
+              <div itemScope itemType="https://schema.org/Answer" itemProp="acceptedAnswer">
+                <p className="text-white/80 leading-relaxed" itemProp="text">
+                  Yes, our Russian escorts in Chennai do both in-call and out-call. In-call means you go to her place - good for quick meetings. Out-call means she comes to you - works for hotels, your home, or wherever you want in Chennai.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
