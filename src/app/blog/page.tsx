@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Blog | Hello Mahi",
+  title: "Blog | Foreign Escort",
   description:
     "Read our latest articles and insights about nightlife, travel, and professional escort services across India's major cities.",
 };

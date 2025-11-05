@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hellomahi.in/sitemap.xml
+Sitemap: https://foreignescort.in/sitemap.xml
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Star, Quote, ChevronLeft, ChevronRight } from "lucide-react";
+import { Star, Quote } from "lucide-react";
 
 const chennaiTestimonials = [
   {
@@ -923,82 +923,55 @@ export default function Testimonials({ cityName = "Chennai" }: TestimonialsProps
         </div>
 
         {/* Testimonials Carousel */}
-        <div className="relative mx-auto max-w-7xl overflow-hidden">
-          <div 
-            className="flex transition-transform duration-500 ease-in-out"
-            style={{
-              transform: `translateX(-${currentIndex * (100 / itemsPerView)}%)`,
-            }}
-          >
-            {testimonials.map((testimonial) => (
-              <div
-                key={testimonial.id}
-                className="w-full min-w-[100%] px-3 sm:min-w-[50%] md:min-w-[33.333%] md:px-4"
-              >
-                <div className="relative overflow-hidden rounded-3xl border-2 border-white/20 bg-gradient-to-br from-black/60 via-black/80 to-black/60 p-6 sm:p-8">
-                  {/* Content */}
-                  <div className="relative z-10 flex h-full flex-col">
-                    {/* Quote icon */}
-                    <div className="mb-4">
-                      <div className="inline-flex h-12 w-12 items-center justify-center rounded-full border border-amber-400/30 bg-gradient-to-br from-amber-500/20 via-amber-400/10 to-transparent">
-                        <Quote className="h-6 w-6 text-amber-400" />
+        <div className="relative mx-auto max-w-7xl">
+          <div className="relative overflow-hidden">
+            <div 
+              className="flex transition-transform duration-500 ease-in-out"
+              style={{
+                transform: `translateX(-${currentIndex * (100 / itemsPerView)}%)`,
+              }}
+            >
+              {testimonials.map((testimonial) => (
+                <div
+                  key={testimonial.id}
+                  className="w-full min-w-[100%] px-3 sm:min-w-[50%] md:min-w-[33.333%] md:px-4"
+                >
+                  <div className="relative overflow-hidden rounded-3xl border-2 border-white/20 bg-gradient-to-br from-black/60 via-black/80 to-black/60 p-6 sm:p-8">
+                    {/* Content */}
+                    <div className="relative z-10 flex h-full flex-col">
+                      {/* Quote icon */}
+                      <div className="mb-4">
+                        <div className="inline-flex h-12 w-12 items-center justify-center rounded-full border border-amber-400/30 bg-gradient-to-br from-amber-500/20 via-amber-400/10 to-transparent">
+                          <Quote className="h-6 w-6 text-amber-400" />
+                        </div>
                       </div>
-                    </div>
 
-                    {/* Testimonial text */}
-                    <p className="mb-6 flex-1 text-base leading-relaxed text-white/90 sm:text-lg">
-                      {testimonial.text}
-                    </p>
+                      {/* Testimonial text */}
+                      <p className="mb-6 flex-1 text-base leading-relaxed text-white/90 sm:text-lg">
+                        {testimonial.text}
+                      </p>
 
-                    {/* Author info */}
-                    <div className="border-t border-white/10 pt-4">
-                      <div className="mb-2 flex items-center gap-1">
-                        {[...Array(5)].map((_, i) => (
-                          <Star
-                            key={i}
-                            className="h-4 w-4 fill-amber-400 text-amber-400"
-                          />
-                        ))}
+                      {/* Author info */}
+                      <div className="border-t border-white/10 pt-4">
+                        <div className="mb-2 flex items-center gap-1">
+                          {[...Array(5)].map((_, i) => (
+                            <Star
+                              key={i}
+                              className="h-4 w-4 fill-amber-400 text-amber-400"
+                            />
+                          ))}
+                        </div>
+                        <h4 className="mb-1 text-lg font-bold text-white">
+                          {testimonial.name}
+                        </h4>
+                        <p className="text-sm text-white/60">{testimonial.role}</p>
                       </div>
-                      <h4 className="mb-1 text-lg font-bold text-white">
-                        {testimonial.name}
-                      </h4>
-                      <p className="text-sm text-white/60">{testimonial.role}</p>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-
-          {/* Navigation Buttons */}
-          <button
-            onClick={() => {
-              setCurrentIndex((prev) => {
-                const maxIndex = Math.max(0, testimonials.length - itemsPerView);
-                if (prev <= 0) {
-                  return maxIndex;
-                }
-                return prev - 1;
-              });
-            }}
-            className="absolute left-2 sm:left-6 top-1/2 z-20 flex h-14 w-14 -translate-y-1/2 items-center justify-center rounded-full border-2 border-white/30 bg-black/80 backdrop-blur-md text-white transition-all duration-300 hover:border-amber-400/70 hover:bg-amber-500/20 hover:scale-110 active:scale-95 shadow-[0_0_20px_rgba(0,0,0,0.5)] hover:shadow-[0_0_30px_rgba(251,191,36,0.4)]"
-          >
-            <ChevronLeft className="h-7 w-7 text-amber-400" />
-          </button>
-
-          <button
-            onClick={() => {
-              setCurrentIndex((prev) => {
-                const maxIndex = Math.max(0, testimonials.length - itemsPerView);
-                if (prev >= maxIndex) return 0;
-                return prev + 1;
-              });
-            }}
-            className="absolute right-2 sm:right-6 top-1/2 z-20 flex h-14 w-14 -translate-y-1/2 items-center justify-center rounded-full border-2 border-white/30 bg-black/80 backdrop-blur-md text-white transition-all duration-300 hover:border-amber-400/70 hover:bg-amber-500/20 hover:scale-110 active:scale-95 shadow-[0_0_20px_rgba(0,0,0,0.5)] hover:shadow-[0_0_30px_rgba(251,191,36,0.4)]"
-          >
-            <ChevronRight className="h-7 w-7 text-amber-400" />
-          </button>
         </div>
 
         {/* Indicators */}

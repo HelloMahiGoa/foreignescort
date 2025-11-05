@@ -4,7 +4,7 @@ import Link from "next/link";
 import Gallery from "@/components/Gallery";
 
 export const metadata: Metadata = {
-  title: "Gallery | Hello Mahi",
+  title: "Gallery | Foreign Escort",
   description:
     "View our curated gallery of professional Russian escorts available across Goa, Mumbai, Delhi, Bangalore, Chennai and other major Indian cities.",
 };

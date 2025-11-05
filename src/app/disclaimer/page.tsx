@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Disclaimer | Hello Mahi",
+  title: "Disclaimer | Foreign Escort",
   description:
-    "Read our disclaimer to understand the terms and limitations of Hello Mahi&apos;s Russian escort services.",
+    "Read our disclaimer to understand the terms and limitations of Foreign Escort&apos;s Russian escort services.",
 };
 
 export default function DisclaimerPage() {
@@ -52,7 +52,7 @@ export default function DisclaimerPage() {
               Disclaimer
             </h1>
             <p className="text-base leading-relaxed text-white/80 sm:text-lg">
-              This disclaimer outlines the terms, limitations, and legal considerations for using Hello Mahi&apos;s services.
+              This disclaimer outlines the terms, limitations, and legal considerations for using Foreign Escort&apos;s services.
             </p>
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
@@ -135,7 +135,7 @@ export default function DisclaimerPage() {
               <h2 className="text-2xl font-semibold mb-6 text-white">Service Description</h2>
               <div className="space-y-4 text-base leading-relaxed text-white/80">
                 <p>
-                  Hello Mahi provides coordination services for professional companionship through verified <strong>Russian escorts</strong>. We coordinate bookings, verify availability, and facilitate connections between clients and escorts.
+                  Foreign Escort provides coordination services for professional companionship through verified <strong>Russian escorts</strong>. We coordinate bookings, verify availability, and facilitate connections between clients and escorts.
                 </p>
                 <p>
                   Our services are designed for adults seeking quality companionship in a discreet and professional manner. We maintain professional standards and expect clients to do the same.
@@ -147,7 +147,7 @@ export default function DisclaimerPage() {
               <h2 className="text-2xl font-semibold mb-6 text-white">Legal Compliance</h2>
               <div className="space-y-4 text-base leading-relaxed text-white/80">
                 <p>
-                  All services provided by Hello Mahi comply with applicable local laws and regulations. We operate within legal frameworks and maintain professional standards in all jurisdictions where we provide services.
+                  All services provided by Foreign Escort comply with applicable local laws and regulations. We operate within legal frameworks and maintain professional standards in all jurisdictions where we provide services.
                 </p>
                 <p>
                   Clients are responsible for ensuring their use of our services complies with local laws in their jurisdiction. We are not responsible for any legal issues arising from client actions or non-compliance with local regulations.
@@ -159,7 +159,7 @@ export default function DisclaimerPage() {
               <h2 className="text-2xl font-semibold mb-6 text-white">Limitation of Liability</h2>
               <div className="space-y-4 text-base leading-relaxed text-white/80">
                 <p>
-                  Hello Mahi provides coordination services and is not responsible for the actions of individual <strong>Russian escorts</strong> beyond our coordination and verification responsibilities. While we verify escorts and maintain service standards, we cannot guarantee specific outcomes.
+                  Foreign Escort provides coordination services and is not responsible for the actions of individual <strong>Russian escorts</strong> beyond our coordination and verification responsibilities. While we verify escorts and maintain service standards, we cannot guarantee specific outcomes.
                 </p>
                 <p>
                   Our liability is limited to the service fees paid. We are not responsible for indirect damages, loss of opportunity, personal injury, or other consequential damages arising from service provision or client interactions with escorts.
@@ -183,7 +183,7 @@ export default function DisclaimerPage() {
               <h2 className="text-2xl font-semibold mb-6 text-white">No Warranties</h2>
               <div className="space-y-4 text-base leading-relaxed text-white/80">
                 <p>
-                  Hello Mahi provides services &quot;as is&quot; without warranties of any kind, either express or implied. We do not guarantee specific outcomes, availability, or results from our coordination services.
+                  Foreign Escort provides services &quot;as is&quot; without warranties of any kind, either express or implied. We do not guarantee specific outcomes, availability, or results from our coordination services.
                 </p>
                 <p>
                   While we maintain high standards for our <strong>Russian escorts</strong> and coordinate services professionally, we cannot guarantee specific experiences or outcomes. Service availability depends on our network and individual schedules.

@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   if (!citySlug) {
     return {
-      title: "Hotel Not Found | Hello Mahi",
+      title: "Hotel Not Found | Foreign Escort",
     };
   }
 
@@ -39,14 +39,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   if (!hotelData) {
     return {
-      title: "Hotel Not Found | Hello Mahi",
+      title: "Hotel Not Found | Foreign Escort",
     };
   }
 
   const cityData = getCityBySlug(citySlug);
 
   return {
-    title: `${hotelData.name} Escorts in ${cityData?.name || city} | Hello Mahi`,
+    title: `${hotelData.name} Escorts in ${cityData?.name || city} | Foreign Escort`,
     description: hotelData.description,
   };
 }

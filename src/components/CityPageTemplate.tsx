@@ -19,7 +19,7 @@ export default function CityPageTemplate({ city }: CityPageTemplateProps) {
         <div className="relative h-full w-full">
           <Image
             src={heroMobile}
-            alt={`${city.name} nightlife background`}
+            alt={`${city.name} Russian Escorts - Book Russian Girls with 10% Discount`}
             fill
             priority
             sizes="100vw"
@@ -31,7 +31,7 @@ export default function CityPageTemplate({ city }: CityPageTemplateProps) {
         <div className="relative h-full w-full">
           <Image
             src={heroDesktop}
-            alt={`${city.name} nightlife background`}
+            alt={`${city.name} Russian Escorts - Book Russian Girls with 10% Discount`}
             fill
             priority
             sizes="100vw"
@@ -53,7 +53,7 @@ export default function CityPageTemplate({ city }: CityPageTemplateProps) {
           </Link>
           <div className="space-y-6">
             <h1 className="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
-              {city.headline}
+              {city.name} Russian Escorts | Book Russian Girls with 10% Discount
             </h1>
             <p className="text-base leading-relaxed text-white/80 sm:text-lg">
               {city.description}

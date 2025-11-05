@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Contact Hello Mahi | Book Russian Escorts",
+  title: "Contact Foreign Escort | Book Russian Escorts",
   description:
-    "Get in touch with Hello Mahi to book professional Russian escorts across Goa, Mumbai, Delhi, Bangalore, Chennai and other major Indian cities.",
+    "Get in touch with Foreign Escort to book professional Russian escorts across Goa, Mumbai, Delhi, Bangalore, Chennai and other major Indian cities.",
 };
 
 export default function ContactPage() {

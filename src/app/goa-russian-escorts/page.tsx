@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 
 import CityPageTemplate from "@/components/CityPageTemplate";
 import { getCityBySlug } from "@/lib/cities";
+import { generateCityMetadata, generateCityStructuredData } from "@/lib/seo";
 import { renderHotelParagraph } from "@/lib/hotels/renderHotelContent";
 import Gallery from "@/components/Gallery";
 import VideoGallery from "@/components/VideoGallery";
@@ -16,18 +17,34 @@ if (!city) {
   throw new Error(`City definition missing for slug: ${citySlug}`);
 }
 
-export const metadata: Metadata = {
-  title: `${city.name} Russian Escorts | Hello Mahi`,
-  description: city.description,
-};
+export const metadata: Metadata = generateCityMetadata(city);
 
 export default function GoaRussianEscortsPage() {
   if (!city) {
     throw new Error(`City definition missing for slug: ${citySlug}`);
   }
 
+  const structuredData = generateCityStructuredData(city);
+
   return (
     <>
+      {/* Structured Data (JSON-LD) */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData.websiteSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData.localBusinessSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData.serviceSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData.breadcrumbSchema) }}
+      />
       <CityPageTemplate city={city} />
       
       {/* Russian Escorts for Goa Beaches and Nightlife Section */}

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { ChevronLeft, ChevronRight, Play, Pause, Volume2, VolumeX, Maximize, Minimize } from "lucide-react";
+import { Play, Pause, Volume2, VolumeX, Maximize, Minimize } from "lucide-react";
 
 const videos = [
   { id: "v1", src: "/images/gallery/v1.mp4", name: "Premium Collection 1" },
@@ -271,21 +271,6 @@ export default function VideoGallery() {
             {/* Outer glow */}
             <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-amber-500/20 via-rose-500/20 to-amber-500/20 opacity-0 blur-xl transition-opacity duration-700 hover:opacity-100 -z-10" />
           </div>
-
-          {/* Navigation Buttons */}
-          <button
-            onClick={handlePrevious}
-            className="group absolute left-2 sm:left-6 top-1/2 z-20 flex h-14 w-14 -translate-y-1/2 items-center justify-center rounded-full border-2 border-white/30 bg-black/80 backdrop-blur-md text-white transition-all duration-300 hover:border-amber-400/70 hover:bg-amber-500/20 hover:scale-110 active:scale-95 shadow-[0_0_20px_rgba(0,0,0,0.5)] hover:shadow-[0_0_30px_rgba(251,191,36,0.4)]"
-          >
-            <ChevronLeft className="h-7 w-7 text-amber-400 transition-transform duration-300 group-hover:-translate-x-1" />
-          </button>
-
-          <button
-            onClick={handleNext}
-            className="group absolute right-2 sm:right-6 top-1/2 z-20 flex h-14 w-14 -translate-y-1/2 items-center justify-center rounded-full border-2 border-white/30 bg-black/80 backdrop-blur-md text-white transition-all duration-300 hover:border-amber-400/70 hover:bg-amber-500/20 hover:scale-110 active:scale-95 shadow-[0_0_20px_rgba(0,0,0,0.5)] hover:shadow-[0_0_30px_rgba(251,191,36,0.4)]"
-          >
-            <ChevronRight className="h-7 w-7 text-amber-400 transition-transform duration-300 group-hover:translate-x-1" />
-          </button>
 
           {/* Enhanced Video Indicators */}
           <div className="mt-8 flex items-center justify-center gap-3">
