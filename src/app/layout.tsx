@@ -23,9 +23,9 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Foreign Escort | Russian Escorts Across Major Cities",
+  title: "Hello Mahi | Russian Escorts Across Major Cities",
   description:
-    "Foreign Escort delivers trusted Russian escorts across Goa, Chennai, Bangalore, Mumbai and other leading Indian cities with responsive booking support.",
+    "Hello Mahi delivers trusted Russian escorts across Goa, Chennai, Bangalore, Mumbai and other leading Indian cities with responsive booking support.",
   verification: {
     google: "ru-QW2vqj7qOAQAU0-Ez4bIszOj_XcekQZCKKR2QKJ4",
   },

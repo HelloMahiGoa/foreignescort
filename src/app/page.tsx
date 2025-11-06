@@ -30,21 +30,21 @@ export const metadata: Metadata = {
     "affordable Russian escorts Chennai",
     "high profile Russian escorts Chennai",
   ],
-  authors: [{ name: "Foreign Escort" }],
-  creator: "Foreign Escort",
-  publisher: "Foreign Escort",
+  authors: [{ name: "Hello Mahi" }],
+  creator: "Hello Mahi",
+  publisher: "Hello Mahi",
   formatDetection: {
     email: false,
     address: false,
     telephone: true,
   },
-  metadataBase: new URL("https://foreignescort.in"),
+  metadataBase: new URL("https://hellomahi.in"),
   openGraph: {
     title: "Chennai Russian Escorts | Book Russian's With 10% Discount",
     description:
       "Book verified Russian escorts in Chennai with 10% discount. Real Russian call girls available 24/7 for in-call and out-call services.",
-    url: "https://foreignescort.in",
-    siteName: "Foreign Escort",
+    url: "https://hellomahi.in",
+    siteName: "Hello Mahi",
     images: [
       {
         url: "/images/desktop-hero.jpg",
@@ -75,10 +75,10 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://foreignescort.in",
+    canonical: "https://hellomahi.in",
     languages: {
-      "en-IN": "https://foreignescort.in",
-      "en": "https://foreignescort.in",
+      "en-IN": "https://hellomahi.in",
+      "en": "https://hellomahi.in",
     },
   },
   other: {
@@ -124,15 +124,15 @@ export default function Home() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Foreign Escort",
-    url: "https://foreignescort.in",
+    name: "Hello Mahi",
+    url: "https://hellomahi.in",
     description: "Professional Russian escort services in Chennai and major Indian cities",
     inLanguage: "en-IN",
     potentialAction: {
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
-        urlTemplate: "https://foreignescort.in/?s={search_term_string}",
+        urlTemplate: "https://hellomahi.in/?s={search_term_string}",
       },
       "query-input": "required name=search_term_string",
     },
@@ -141,9 +141,9 @@ export default function Home() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Foreign Escort",
-    url: "https://foreignescort.in",
-    logo: "https://foreignescort.in/logo.png",
+    name: "Hello Mahi",
+    url: "https://hellomahi.in",
+    logo: "https://hellomahi.in/logo.png",
     description: "Professional Russian escort services in Chennai and major Indian cities",
     address: {
       "@type": "PostalAddress",
@@ -163,9 +163,9 @@ export default function Home() {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "Foreign Escort - Chennai Russian Escorts",
+    name: "Hello Mahi - Chennai Russian Escorts",
     description: "Book verified Russian escorts in Chennai with 10% discount. Available 24/7 for in-call and out-call services.",
-    url: "https://foreignescort.in",
+    url: "https://hellomahi.in",
     telephone: "+91-8121426651",
     address: {
       "@type": "PostalAddress",
@@ -206,7 +206,7 @@ export default function Home() {
     serviceType: "Escort Service",
     provider: {
       "@type": "LocalBusiness",
-      name: "Foreign Escort",
+      name: "Hello Mahi",
     },
     areaServed: {
       "@type": "City",
@@ -284,7 +284,7 @@ export default function Home() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://foreignescort.in",
+        item: "https://hellomahi.in",
       },
     ],
   };

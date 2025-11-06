@@ -4,7 +4,7 @@ import { getServiceAreasForCity } from '@/lib/serviceAreas';
 import { getHotelsForCity, getCityNameForUrl } from '@/lib/hotels';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://foreignescort.in';
+  const baseUrl = 'https://hellomahi.in';
   
   const currentDate = new Date();
   

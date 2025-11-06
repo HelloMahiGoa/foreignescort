@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | Foreign Escort",
+  title: "Terms of Service | Hello Mahi",
   description:
-    "Read our terms of service to understand the terms and conditions for using Foreign Escort&apos;s Russian escort services across major Indian cities.",
+    "Read our terms of service to understand the terms and conditions for using Hello Mahi&apos;s Russian escort services across major Indian cities.",
 };
 
 export default function TermsOfServicePage() {
@@ -52,7 +52,7 @@ export default function TermsOfServicePage() {
               Terms of Service
             </h1>
             <p className="text-base leading-relaxed text-white/80 sm:text-lg">
-              These terms govern your use of Foreign Escort&apos;s services. Please read carefully before booking our <strong>Russian escorts</strong>.
+              These terms govern your use of Hello Mahi&apos;s services. Please read carefully before booking our <strong>Russian escorts</strong>.
             </p>
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
@@ -195,7 +195,7 @@ export default function TermsOfServicePage() {
               <h2 className="text-2xl font-semibold mb-6 text-white">Limitation of Liability</h2>
               <div className="space-y-4 text-base leading-relaxed text-white/80">
                 <p>
-                  Foreign Escort provides coordination services for professional companionship. We are not responsible for the actions of individual escorts beyond our coordination and verification responsibilities.
+                  Hello Mahi provides coordination services for professional companionship. We are not responsible for the actions of individual escorts beyond our coordination and verification responsibilities.
                 </p>
                 <p>
                   Our liability is limited to the service fees paid. We are not responsible for indirect damages, loss of opportunity, or other consequential damages arising from service provision.

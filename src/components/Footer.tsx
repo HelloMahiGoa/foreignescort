@@ -20,7 +20,7 @@ export default function Footer() {
             <div>
               <h3 className="text-2xl font-bold text-white mb-2">
                 <span className="bg-gradient-to-r from-amber-200 via-amber-100 to-white bg-clip-text text-transparent">
-                  Foreign Escort
+                  Hello Mahi
                 </span>
               </h3>
               <p className="text-sm leading-relaxed text-white/60">
@@ -259,7 +259,7 @@ export default function Footer() {
         <div className="mt-16 border-t border-white/10 pt-8">
           <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
             <div className="flex flex-wrap items-center gap-6 text-xs text-white/50">
-              <p>© {new Date().getFullYear()} Foreign Escort. All rights reserved.</p>
+              <p>© {new Date().getFullYear()} Hello Mahi. All rights reserved.</p>
               <Link href="/privacy-policy" className="hover:text-amber-400 transition-colors">
                 Privacy Policy
               </Link>

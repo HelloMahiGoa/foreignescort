@@ -39,30 +39,30 @@ export function generateCityKeywords(cityName: string): string[] {
 export function generateCityMetadata(city: CityDefinition): Metadata {
   const cityName = city.name;
   const citySlug = city.slug;
-  const url = `https://foreignescort.in/${citySlug}`;
+  const url = `https://hellomahi.in/${citySlug}`;
   const coordinates = cityCoordinates[citySlug] || { lat: "0", lng: "0", region: "IN" };
   
-  const title = `${cityName} Russian Escorts | Book Russian Girls with 10% Discount | Foreign Escort`;
+  const title = `${cityName} Russian Escorts | Book Russian Girls with 10% Discount | Hello Mahi`;
   const description = city.description || `Book verified Russian escorts in ${cityName} with 10% discount. Real Russian call girls available 24/7 for in-call and out-call services. Professional, verified profiles with no advance payment required.`;
 
   return {
     title,
     description,
     keywords: generateCityKeywords(cityName),
-    authors: [{ name: "Foreign Escort" }],
-    creator: "Foreign Escort",
-    publisher: "Foreign Escort",
+    authors: [{ name: "Hello Mahi" }],
+    creator: "Hello Mahi",
+    publisher: "Hello Mahi",
     formatDetection: {
       email: false,
       address: false,
       telephone: true,
     },
-    metadataBase: new URL("https://foreignescort.in"),
+    metadataBase: new URL("https://hellomahi.in"),
     openGraph: {
       title,
       description,
       url,
-      siteName: "Foreign Escort",
+      siteName: "Hello Mahi",
       images: [
         {
           url: "/images/desktop-hero.jpg",
@@ -119,14 +119,14 @@ export function generateCityMetadata(city: CityDefinition): Metadata {
 export function generateCityStructuredData(city: CityDefinition) {
   const cityName = city.name;
   const citySlug = city.slug;
-  const url = `https://foreignescort.in/${citySlug}`;
+  const url = `https://hellomahi.in/${citySlug}`;
   const coordinates = cityCoordinates[citySlug] || { lat: "0", lng: "0", region: "IN" };
 
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Foreign Escort",
-    url: "https://foreignescort.in",
+    name: "Hello Mahi",
+    url: "https://hellomahi.in",
     description: `Professional Russian escort services in ${cityName} and major Indian cities`,
     inLanguage: "en-IN",
   };
@@ -134,7 +134,7 @@ export function generateCityStructuredData(city: CityDefinition) {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: `Foreign Escort - ${cityName} Russian Escorts`,
+    name: `Hello Mahi - ${cityName} Russian Escorts`,
     description: `Book verified Russian escorts in ${cityName} with 10% discount. Available 24/7 for in-call and out-call services.`,
     url,
     telephone: "+91-8121426651",
@@ -176,7 +176,7 @@ export function generateCityStructuredData(city: CityDefinition) {
     serviceType: "Escort Service",
     provider: {
       "@type": "LocalBusiness",
-      name: "Foreign Escort",
+      name: "Hello Mahi",
     },
     areaServed: {
       "@type": "City",
@@ -199,7 +199,7 @@ export function generateCityStructuredData(city: CityDefinition) {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://foreignescort.in",
+        item: "https://hellomahi.in",
       },
       {
         "@type": "ListItem",

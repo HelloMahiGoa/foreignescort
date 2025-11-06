@@ -15,7 +15,7 @@ if (!city || !area) {
 }
 
 export const metadata: Metadata = {
-  title: `${area.name} Escorts in ${city.name} | Foreign Escort`,
+  title: `${area.name} Escorts in ${city.name} | Hello Mahi`,
   description: area.description,
 };
 
