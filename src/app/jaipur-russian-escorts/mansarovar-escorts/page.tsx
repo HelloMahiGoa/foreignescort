@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 import ServiceAreaPageTemplate from "@/components/ServiceAreaPageTemplate";
 import { getCityBySlug } from "@/lib/cities";
@@ -15,7 +15,7 @@ if (!city || !area) {
 }
 
 export const metadata: Metadata = {
-  title: `${area.name} Escorts in ${city.name} | Hello Mahi`,
+  title: `${area.name} Escorts in ${city.name} | Foreign Escort`,
   description: area.description,
 };
 
@@ -23,4 +23,5 @@ export default function MansarovarEscortsPage() {
   // city and area are guaranteed to be defined due to the precondition check above
   return <ServiceAreaPageTemplate city={city!} area={area!} />;
 }
+
 

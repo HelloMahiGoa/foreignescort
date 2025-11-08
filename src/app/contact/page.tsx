@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Contact Hello Mahi | Book Russian Escorts",
+  title: "Contact Foreign Escort | Book Russian Escorts",
   description:
-    "Get in touch with Hello Mahi to book professional Russian escorts across Goa, Mumbai, Delhi, Bangalore, Chennai and other major Indian cities.",
+    "Get in touch with Foreign Escort to book professional Russian escorts across Goa, Mumbai, Delhi, Bangalore, Chennai and other major Indian cities.",
 };
 
 export default function ContactPage() {
@@ -45,7 +45,7 @@ export default function ContactPage() {
             href="/"
             className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.35em] text-white/70 transition hover:border-white/40 hover:text-white relative z-10"
           >
-            ← Back
+            â† Back
           </Link>
           <div className="space-y-6">
             <h1 className="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
@@ -195,4 +195,5 @@ export default function ContactPage() {
     </main>
   );
 }
+
 

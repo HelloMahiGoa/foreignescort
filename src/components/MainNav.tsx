@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -33,7 +33,7 @@ export default function MainNav() {
               <span className="absolute inset-0 rounded-full bg-emerald-400 opacity-60 animate-ping" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-300" />
             </span>
-            <span className="relative">Hello Mahi</span>
+            <span className="relative">Foreign Escort</span>
           </Link>
           <nav className="hidden items-center gap-3 rounded-full border border-white/15 bg-zinc-900/40 px-6 py-2 text-sm text-white shadow-[0_22px_48px_-32px_rgba(0,0,0,0.85)] backdrop-blur-xl md:flex relative z-10">
           {links.map((link) => {
@@ -182,7 +182,7 @@ export default function MainNav() {
                         isActive ? "text-zinc-900/70" : "text-white/40"
                       }`}
                     >
-                      →
+                      â†’
                     </span>
                   </Link>
                 );
@@ -194,4 +194,5 @@ export default function MainNav() {
     </header>
   );
 }
+
 

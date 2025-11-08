@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Gallery from "@/components/Gallery";
 
 export const metadata: Metadata = {
-  title: "Gallery | Hello Mahi",
+  title: "Gallery | Foreign Escort",
   description:
     "View our curated gallery of professional Russian escorts available across Goa, Mumbai, Delhi, Bangalore, Chennai and other major Indian cities.",
 };
@@ -46,7 +46,7 @@ export default function GalleryPage() {
             href="/"
             className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.35em] text-white/70 transition hover:border-white/40 hover:text-white relative z-10"
           >
-            ← Back
+            â† Back
           </Link>
           <div className="space-y-6">
             <h1 className="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
@@ -332,4 +332,5 @@ export default function GalleryPage() {
     </main>
   );
 }
+
 

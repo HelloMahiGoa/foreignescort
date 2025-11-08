@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -30,21 +30,21 @@ export const metadata: Metadata = {
     "affordable Russian escorts Chennai",
     "high profile Russian escorts Chennai",
   ],
-  authors: [{ name: "Hello Mahi" }],
-  creator: "Hello Mahi",
-  publisher: "Hello Mahi",
+  authors: [{ name: "Foreign Escort" }],
+  creator: "Foreign Escort",
+  publisher: "Foreign Escort",
   formatDetection: {
     email: false,
     address: false,
     telephone: true,
   },
-  metadataBase: new URL("https://hellomahi.in"),
+  metadataBase: new URL("https://foreignescort.com"),
   openGraph: {
     title: "Chennai Russian Escorts | Book Russian's With 10% Discount",
     description:
       "Book verified Russian escorts in Chennai with 10% discount. Real Russian call girls available 24/7 for in-call and out-call services.",
-    url: "https://hellomahi.in",
-    siteName: "Hello Mahi",
+    url: "https://foreignescort.com",
+    siteName: "Foreign Escort",
     images: [
       {
         url: "/images/desktop-hero.jpg",
@@ -75,10 +75,10 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://hellomahi.in",
+    canonical: "https://foreignescort.com",
     languages: {
-      "en-IN": "https://hellomahi.in",
-      "en": "https://hellomahi.in",
+      "en-IN": "https://foreignescort.com",
+      "en": "https://foreignescort.com",
     },
   },
   other: {
@@ -124,15 +124,15 @@ export default function Home() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Hello Mahi",
-    url: "https://hellomahi.in",
+    name: "Foreign Escort",
+    url: "https://foreignescort.com",
     description: "Professional Russian escort services in Chennai and major Indian cities",
     inLanguage: "en-IN",
     potentialAction: {
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
-        urlTemplate: "https://hellomahi.in/?s={search_term_string}",
+        urlTemplate: "https://foreignescort.com/?s={search_term_string}",
       },
       "query-input": "required name=search_term_string",
     },
@@ -141,9 +141,9 @@ export default function Home() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Hello Mahi",
-    url: "https://hellomahi.in",
-    logo: "https://hellomahi.in/logo.png",
+    name: "Foreign Escort",
+    url: "https://foreignescort.com",
+    logo: "https://foreignescort.com/logo.png",
     description: "Professional Russian escort services in Chennai and major Indian cities",
     address: {
       "@type": "PostalAddress",
@@ -163,9 +163,9 @@ export default function Home() {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "Hello Mahi - Chennai Russian Escorts",
+    name: "Foreign Escort - Chennai Russian Escorts",
     description: "Book verified Russian escorts in Chennai with 10% discount. Available 24/7 for in-call and out-call services.",
-    url: "https://hellomahi.in",
+    url: "https://foreignescort.com",
     telephone: "+91-8121426651",
     address: {
       "@type": "PostalAddress",
@@ -206,7 +206,7 @@ export default function Home() {
     serviceType: "Escort Service",
     provider: {
       "@type": "LocalBusiness",
-      name: "Hello Mahi",
+      name: "Foreign Escort",
     },
     areaServed: {
       "@type": "City",
@@ -284,7 +284,7 @@ export default function Home() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://hellomahi.in",
+        item: "https://foreignescort.com",
       },
     ],
   };
@@ -392,7 +392,7 @@ export default function Home() {
 
             <div className="absolute left-1/2 top-1/2 w-48 -translate-x-1/2 -translate-y-1/2 rounded-[32px] border border-white/20 bg-black/60 p-6 shadow-[0_24px_60px_-30px_rgba(0,0,0,0.85)] backdrop-blur-xl animate-[floatY_6s_ease-in-out_infinite]">
               <p className="text-xs font-semibold uppercase tracking-[0.4em] text-white/60">
-                Tonight’s flow
+                Tonightâ€™s flow
               </p>
               <div className="mt-4 space-y-3 text-sm text-white/80">
                 <div className="flex items-center justify-between">
@@ -1195,3 +1195,5 @@ export default function Home() {
     </main>
   );
 }
+
+

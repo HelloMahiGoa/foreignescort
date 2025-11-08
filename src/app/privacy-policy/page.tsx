@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Hello Mahi",
+  title: "Privacy Policy | Foreign Escort",
   description:
-    "Read our privacy policy to understand how Hello Mahi protects your personal information and ensures complete discretion in our services.",
+    "Read our privacy policy to understand how Foreign Escort protects your personal information and ensures complete discretion in our services.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -45,7 +45,7 @@ export default function PrivacyPolicyPage() {
             href="/"
             className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.35em] text-white/70 transition hover:border-white/40 hover:text-white relative z-10"
           >
-            ← Back
+            â† Back
           </Link>
           <div className="space-y-6">
             <h1 className="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
@@ -135,7 +135,7 @@ export default function PrivacyPolicyPage() {
               <h2 className="text-2xl font-semibold mb-6 text-white">Information We Collect</h2>
               <div className="space-y-4 text-base leading-relaxed text-white/80">
                 <p>
-                  Hello Mahi collects only the information necessary to provide our services. This includes contact information such as phone numbers, names, and booking preferences. We collect this information when you contact our operations desk or submit a booking form.
+                  Foreign Escort collects only the information necessary to provide our services. This includes contact information such as phone numbers, names, and booking preferences. We collect this information when you contact our operations desk or submit a booking form.
                 </p>
                 <p>
                   We do not collect sensitive personal data beyond what is required for service delivery. All information is collected with your explicit consent and is used solely for the purpose of coordinating bookings and ensuring service quality.
@@ -196,4 +196,5 @@ export default function PrivacyPolicyPage() {
     </main>
   );
 }
+
 

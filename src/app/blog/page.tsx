@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Blog | Hello Mahi",
+  title: "Blog | Foreign Escort",
   description:
     "Read our latest articles and insights about nightlife, travel, and professional escort services across India's major cities.",
 };
@@ -45,7 +45,7 @@ export default function BlogPage() {
             href="/"
             className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.35em] text-white/70 transition hover:border-white/40 hover:text-white relative z-10"
           >
-            ← Back
+            â† Back
           </Link>
           <div className="space-y-6">
             <h1 className="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
@@ -146,4 +146,5 @@ export default function BlogPage() {
     </main>
   );
 }
+
 

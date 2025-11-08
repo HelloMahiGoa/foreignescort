@@ -1,10 +1,10 @@
-import { MetadataRoute } from 'next';
+﻿import { MetadataRoute } from 'next';
 import { cityEntries } from '@/lib/cities';
 import { getServiceAreasForCity } from '@/lib/serviceAreas';
 import { getHotelsForCity, getCityNameForUrl } from '@/lib/hotels';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://hellomahi.in';
+  const baseUrl = 'https://foreignescort.com';
   
   const currentDate = new Date();
   
@@ -130,4 +130,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...chennaiRootPages,
   ];
 }
+
 

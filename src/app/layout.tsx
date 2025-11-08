@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
 import Script from "next/script";
 import MainNav from "@/components/MainNav";
@@ -23,9 +23,9 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Hello Mahi | Russian Escorts Across Major Cities",
+  title: "Foreign Escort | Russian Escorts Across Major Cities",
   description:
-    "Hello Mahi delivers trusted Russian escorts across Goa, Chennai, Bangalore, Mumbai and other leading Indian cities with responsive booking support.",
+    "Foreign Escort delivers trusted Russian escorts across Goa, Chennai, Bangalore, Mumbai and other leading Indian cities with responsive booking support.",
   verification: {
     google: "ru-QW2vqj7qOAQAU0-Ez4bIszOj_XcekQZCKKR2QKJ4",
   },
@@ -62,3 +62,4 @@ export default function RootLayout({
     </html>
   );
 }
+

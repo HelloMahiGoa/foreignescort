@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About Hello Mahi | Russian Escort Services Across Major Cities",
+  title: "About Foreign Escort | Russian Escort Services Across Major Cities",
   description:
-    "Learn about Hello Mahi's commitment to providing discreet, professional Russian escort services across Goa, Mumbai, Delhi, Bangalore, Chennai and other major Indian cities.",
+    "Learn about Foreign Escort's commitment to providing discreet, professional Russian escort services across Goa, Mumbai, Delhi, Bangalore, Chennai and other major Indian cities.",
 };
 
 export default function AboutPage() {
@@ -45,11 +45,11 @@ export default function AboutPage() {
             href="/"
             className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.35em] text-white/70 transition hover:border-white/40 hover:text-white relative z-10"
           >
-            ← Back
+            â† Back
           </Link>
           <div className="space-y-6">
             <h1 className="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
-              About Hello Mahi
+              About Foreign Escort
             </h1>
             <p className="text-base leading-relaxed text-white/80 sm:text-lg">
               We operate field crews across India&apos;s major metros to ensure verified Russian escorts arrive on time, at the right location, with clear communication every step of the way.
@@ -141,7 +141,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-base leading-relaxed text-white/80 sm:text-lg">
                 <p>
-                  Hello Mahi operates with a clear mission: to provide discreet, professional, and reliable <strong>Russian escort services</strong> across India&apos;s major cities. We understand that quality companionship requires trust, discretion, and attention to detail. Our network spans <Link href="/goa-russian-escorts" className="text-amber-400 hover:text-amber-300 underline">Goa</Link>, <Link href="/mumbai-russian-escorts" className="text-amber-400 hover:text-amber-300 underline">Mumbai</Link>, <Link href="/delhi-ncr-russian-escorts" className="text-amber-400 hover:text-amber-300 underline">Delhi NCR</Link>, <Link href="/bangalore-russian-escorts" className="text-amber-400 hover:text-amber-300 underline">Bangalore</Link>, and <Link href="/chennai-russian-escorts" className="text-amber-400 hover:text-amber-300 underline">Chennai</Link>, ensuring consistent service standards wherever you travel.
+                  Foreign Escort operates with a clear mission: to provide discreet, professional, and reliable <strong>Russian escort services</strong> across India&apos;s major cities. We understand that quality companionship requires trust, discretion, and attention to detail. Our network spans <Link href="/goa-russian-escorts" className="text-amber-400 hover:text-amber-300 underline">Goa</Link>, <Link href="/mumbai-russian-escorts" className="text-amber-400 hover:text-amber-300 underline">Mumbai</Link>, <Link href="/delhi-ncr-russian-escorts" className="text-amber-400 hover:text-amber-300 underline">Delhi NCR</Link>, <Link href="/bangalore-russian-escorts" className="text-amber-400 hover:text-amber-300 underline">Bangalore</Link>, and <Link href="/chennai-russian-escorts" className="text-amber-400 hover:text-amber-300 underline">Chennai</Link>, ensuring consistent service standards wherever you travel.
                 </p>
                 <p>
                   Every <strong>Russian escort</strong> in our network undergoes thorough verification. We maintain professional relationships with premium hotels, private drivers, and local venues to ensure seamless coordination. Our commitment to discretion means your privacy is protected at every step, from initial contact through checkout.
@@ -262,7 +262,7 @@ export default function AboutPage() {
                   We maintain standing relationships with premium hotels across all our service cities. This network ensures that your <strong>Russian escort</strong> can access hotel facilities seamlessly, whether you&apos;re staying at Taj properties, Oberoi hotels, or boutique luxury accommodations. Our field crews coordinate with hotel security and concierge teams to ensure smooth check-ins and access.
                 </p>
                 <p>
-                  These partnerships mean faster confirmations and better service quality. When you book through Hello Mahi, you&apos;re accessing a network that understands the logistics of premium hospitality. From airport hotels to city center properties, we ensure your experience remains discreet and professional.
+                  These partnerships mean faster confirmations and better service quality. When you book through Foreign Escort, you&apos;re accessing a network that understands the logistics of premium hospitality. From airport hotels to city center properties, we ensure your experience remains discreet and professional.
                 </p>
               </div>
             </div>
@@ -309,16 +309,16 @@ export default function AboutPage() {
       <section className="relative bg-zinc-950 py-8 lg:py-12">
         <div className="mx-auto w-full max-w-6xl px-6">
           <div className="rounded-3xl border border-white/15 bg-black/50 p-8 backdrop-blur-lg shadow-[0_35px_80px_-50px_rgba(0,0,0,0.8)]">
-            <h2 className="text-2xl font-semibold mb-6 text-white">Why Choose Hello Mahi?</h2>
+            <h2 className="text-2xl font-semibold mb-6 text-white">Why Choose Foreign Escort?</h2>
             <div className="space-y-4 text-base leading-relaxed text-white/80">
               <p>
-                Hello Mahi stands out in the industry through our commitment to quality, professionalism, and reliability. We operate field crews across <strong>8+ major cities</strong>, ensuring consistent service standards wherever you travel. Our <strong>120+ verified Russian escorts</strong> are carefully selected professionals who understand the importance of discretion and client satisfaction.
+                Foreign Escort stands out in the industry through our commitment to quality, professionalism, and reliability. We operate field crews across <strong>8+ major cities</strong>, ensuring consistent service standards wherever you travel. Our <strong>120+ verified Russian escorts</strong> are carefully selected professionals who understand the importance of discretion and client satisfaction.
               </p>
               <p>
                 Our 24/7 operations desk ensures you can book whenever you need, with response times under 5 minutes. We maintain partnerships with premium hotels, ensuring seamless access and coordination. Every booking is handled with complete discretion, protecting your privacy at every step.
               </p>
               <p>
-                Whether you&apos;re visiting India for business or pleasure, Hello Mahi provides the reliable, professional service you deserve. Our network spans from beachfront destinations in Goa to business hubs in Bangalore and Mumbai, ensuring quality companionship wherever your travels take you.
+                Whether you&apos;re visiting India for business or pleasure, Foreign Escort provides the reliable, professional service you deserve. Our network spans from beachfront destinations in Goa to business hubs in Bangalore and Mumbai, ensuring quality companionship wherever your travels take you.
               </p>
             </div>
           </div>
@@ -327,4 +327,5 @@ export default function AboutPage() {
     </main>
   );
 }
+
 
